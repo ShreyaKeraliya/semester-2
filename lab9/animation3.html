@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#div1{
+			height: 900px;
+			width: 100%;
+			background-color: orange;
+		}
+		#div2{
+			position: absolute;
+			height: 100px;
+			width: 10%;
+			background-color: blue;
+			border:1px solid blue;
+			border-top-left-radius: 20px; 
+			border-top-right-radius: 20px;
+			border-bottom-left-radius: 20px;
+			border-bottom-right-radius: 20px;
+			animation-name: demo;
+			animation-duration: 3s;
+		}
+		@keyframes demo{
+			0%{left: 0%;top: 0px}
+			14.3%{left:10%;top: 800px}
+			28.6%{left:30%;top:0px}
+			42.9%{left:50%;top:800px}
+			57.2%{left:70%;top:0px}
+			71.5%{left:90%;top:800px}
+			100%{left:0%;top:0px}
+		}
+	</style>
+		
+
+
+</head>
+<body>
+	<div id="div1">
+		<span id="div2"></span>
+	</div>
+	
+
+</body>
+</html>

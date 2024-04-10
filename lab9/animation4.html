@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#main{
+			height: 900px;
+			width: 100%;
+			background-color: #d998d1;
+		}
+		#b1{
+			position: absolute;
+			height: 20px;
+			width: 1%;
+			background-color: #a103fc;
+			border:1px solid #a103fc;
+			border-radius: 20px;
+			animation-name: demo;
+			animation-duration: 2s;
+			margin-top: 450px;
+		}
+		#b2{
+			position: absolute;
+			height: 20px;
+			width: 1%;
+			background-color: white;
+			border:1px solid white;
+			border-radius: 20px;
+			animation-name: demo1;
+			animation-duration: 2s;
+			margin-top: 450px;
+			margin-left:99%; 
+		}
+		#b3{
+			position: absolute;
+			height: 20px;
+			width: 1%;
+			background-color: brown;
+			border:1px solid brown;
+			border-radius: 20px;
+			animation-name: demo2;
+			animation-duration: 2s;
+			margin-top: 450px;
+			margin-left: 99%
+		}
+		@keyframes demo{
+			0%{left: 0%}
+			100%{left: 99%}
+
+		}
+		@keyframes demo1{
+			0%{left: 48.5%;top:450px}
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="main">
+	<span id="b1"></span>
+	<span id="b2"></span>
+	<span id="b3"></span>
+	<span id="b4"></span>
+	<span id="b5"></span>
+	<span id="b6"></span>
+</div>
+</body>
+</html>
