@@ -1,0 +1,78 @@
+#main{
+	height:700px;
+	width:1000px;
+	border: 1px solid;
+	margin: auto;
+	background-image: url("https://static.vecteezy.com/system/resources/previews/006/852/804/non_2x/abstract-blue-background-simple-design-for-your-website-free-vector.jpg");
+}
+#part1{
+	height: 300px;
+	width: 900px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px; 
+	background-color:white; 
+
+}
+#logo{
+	height: 50px;
+	width: 900px;
+	border: 1px solid;
+	background-color: rgb(90, 3, 252);
+}
+#part2{
+	height: 350px;
+	width: 900px;
+	
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: whitesmoke;
+}
+.link{
+	height: 30px;
+	width: 30px;
+	text-decoration: none;
+	margin-left: 10px;
+	color: black;
+}
+#button{
+	background-color: red;
+	border-right: 1px solid;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+#hire{ 
+	background-color: red;
+	margin-top:250px;
+	border-radius: 7px;
+
+
+}
+.pic{
+	height: 50px;
+	width: 100px;
+	color: grey;
+}
+.box{
+	height: 150px;
+	width: 100px;
+	border: 1px solid;
+	border-radius: 7px;
+	background-color: #c9d1c5;
+}
+.l1{
+	height: 25px;
+	width: 25px;
+	border: 1px solid;
+	border-radius: 100px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.box:hover{
+	height: 150px;
+	width: 100px;
+	border: 1px solid;
+	border-radius: 7px;
+	background-color: #c9d1c5;
+	background-color: grey;
+}

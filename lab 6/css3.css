@@ -1,0 +1,111 @@
+#black{
+	background-color: black;
+	height: 60px;
+	width: 1250px;
+
+	
+}
+#head{
+	background-color: red;
+	height: 30px;
+	width: 850px;
+	margin-left: 200px;
+	margin-top: 20px;
+	border: 3px solid black;
+	color: white;
+	text-align: center;
+
+}
+#main1{
+	height: 520px;
+	width: 850px;
+	margin-left: 200px;
+	
+	margin-top: 10px;
+}
+#navigation{
+	float:left;
+	background-color: blue;
+	height:500px;
+	width: 300px;
+	margin-bottom: 10px;
+	border: 3px solid black;
+	color: white;
+	
+	text-align: center;
+
+	
+	
+
+}
+#man{
+	float: right;
+	
+	height: 495px;
+	width: 520px;
+	
+	float: right;
+			
+
+}
+#part1{
+	
+	height: 250px;
+
+}
+#con{
+	background-color: yellow;
+	float: left;
+	width: 290px;
+	margin-right: 10px;
+	height: 250px;
+	border-top: 3px solid black;
+	border-left: 3px solid black;
+	border-right: 3px solid black;
+
+	
+}
+#sid{
+	background-color: greenyellow;
+	width: 200px;
+	height: 230px;
+	float: right;
+	border: 3px solid black;
+	color: white;
+}
+#part2{
+	
+	height: 250px;
+}
+#p21{
+	background-color: yellow;
+	height: 250px;
+	width: 290px;
+	float: left;
+	border-bottom: solid;
+	
+	border-left: solid;
+
+
+}
+#p22{
+	background-color: yellow;
+	height: 247px;
+	float: right;
+	width: 224px;
+	
+	border-top: solid;
+	border-bottom: solid;
+	border-right: solid;
+
+}
+#foot{
+	height: 30px;
+	background-color:darkcyan ;
+	width: 850px;
+	margin-left: 200px;
+	
+	border: 3px solid black;
+	color: white;
+
+}

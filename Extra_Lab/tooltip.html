@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.tooltip{
+			position: absolute;
+			display: inline-block;
+			border-bottom: 1px dotted black;
+
+		}
+		.tooltip .tooltiptext{
+			visibility: hidden;
+			width: 120px;
+			background-color: black;
+			color: #fff;
+			text-align: center;
+			border-radius: 6px;
+			padding-top: 5px 0px;
+			position: absolute;
+			z-index:1;
+		}
+		.tooltip:hover .tooltiptext{
+			visibility: visible;
+		}
+		}
+	</style>
+</head>
+<body>
+	<div class="tooltip">Hover here to see tooltip<span class="tooltiptext">tooltiptext</span></div>
+
+</body>
+</html>
