@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#div1{
+			box-sizing: border-box;
+			height: 400px;
+			width: 25%;
+			animation-name: demo;
+			animation-duration: 3s;
+			background-color: pink;
+			position: absolute;
+			animation-delay: 2s;
+			animation-iteration-count: infinite;
+			/*animation-direction: reverse;*/
+			animation-timing-function: linear;
+
+				
+		}
+
+		@keyframes demo{
+			0%{left:0%;top: 0%}
+			25%{left: 50%;top: 0%}
+			50%{left: 50%;top: 50%}
+			75%{left: 0%;top: 50%}
+			100%{left: 0%;top: 0%}
+			
+
+			
+		}
+		#div2{
+			box-sizing: border-box;
+			height: 400px;
+			width: 25%;
+			animation-name: demos;
+			animation-duration: 4s;
+			margin-top: 1010px;
+
+		}
+		@keyframes demos{
+			from{
+				background-color: red;
+			}
+			to{
+				background-color: yellow;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div id="div1">
+		
+	</div>
+	<div id="div2"></div>
+
+</body>
+</html>
